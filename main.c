@@ -20,7 +20,7 @@ int sum =0;
   printf("\n");
   
   // значение i смени в зависимости от SIZE
-    for(int i = 4; i >= 0; --i)
+    for(int i = SIZE-1; i >= 0; --i)
   {
     printf("[%d]", m[i]);
   }
