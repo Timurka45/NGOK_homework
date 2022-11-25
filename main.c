@@ -6,7 +6,7 @@ int main(void)
 {
 int m[SIZE]=  {0};
   // sum может содержать в себе мусор без явленого присваивания значения
-int sum;
+int sum =0;
   
   for(int i = 0; i < SIZE; ++i)
   {
